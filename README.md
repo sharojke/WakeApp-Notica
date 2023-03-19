@@ -29,20 +29,20 @@
       </ul>
     </li>
     <li>
-      <a href="#basic-functionality">Basic Functionality</a>
+      <a href="#my-participation">My Participation</a>
       <ul>
-        <li><a href="#main-screen">Main Screen</a></li>
-          <ul>
-            <li><a href="#creation-of-notes">Creation of Notes</a></li>
-            <li><a href="#quick-creation-of-notes">Quick Creation of Notes</a></li>
-            <li><a href="#navigating-between-notes">Navigating Between Notes</a></li>
-          </ul>
+        <li><a href="#responsibilities">Responsibilities</a></li>
+        <li><a href="#skills-and-technologies">Skills and Technologies</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#functionality">Functionality</a>
+      <ul>
         <li><a href="#viewing-a-note">Viewing a Note</a></li>
           <ul>
             <li><a href="#tag-and-background">Tag and Background</a></li>
             <li><a href="#bulleted-list">Bulleted List</a></li>
           </ul>
-        <li><a href="#search">Search</a></li>
         <li><a href="#recently-deleted">Recently Deleted</a></li>   
       </ul>
     </li>
@@ -58,7 +58,7 @@
 ### Company
 
 [WakeApp](https://www.wakeapp.com/) is a technological advanced mobile marketing agency, leader in the promotion of mobile applications on the international market.  
-Until March 2022, this company had a department for the development of iOS applications.
+Until March 2022, this company had a department for the development of iOS applications; unfortunately, the department was closed, employees were fired.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,43 +76,47 @@ Until March 2022, this company had a department for the development of iOS appli
 
 ### Life Span
 
-*December 2021 - February 2022*  
-The development of the application began in mid-December 2021 and was fully completed at the end of February 2022.  
-At the end of 2022, the app was removed from the App Store.
+*December 2020 - February 2021*  
+The development of the application began in mid-December 2020 and was fully completed at the end of February 2021.  
+At the end of 2021, the app was removed from the App Store.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 
-## Basic Functionality
+## My Participation
 
 
+It was my first commercial project that I developed in a team with other people. 
 
-### Main Screen
 
-<img title="Main" src="/Resources/Images/main.png" width="200"/>
+### Responsibilities
+
+First of all, I had to fully immerse myself in the working atmosphere, as well as study the code style, company libraries and technologies.  
+I was in a team with my mentor and worked on the project from January to February 2021, after that the work on the project was completed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Skills and Technologies
+
+- Swift
+- MVC
+- UIKit, NSAttributedString, create the UI programmatically
+- Realm, localise.biz, Amplitude
+- Git+Sourcetree, Jira, Figma
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-#### Creation of Notes
 
-<img title="Create 0" src="/Resources/GIF/create-0.gif" width="200"/>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Functionality
 
-#### Quick Creation of Notes
 
-<img title="Create 1" src="/Resources/GIF/create-1.gif" width="200"/>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-#### Navigating Between Notes
-
-<img title="Navigation" src="/Resources/GIF/navigation.gif" width="200"/>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+The main functionality is displayed below. Of course, in addition to this, many small tasks were completed and many bugs were fixed.  
+***All the functionality written below was implemented by me or with my active participation.***
 
 
 ### Viewing a Note
@@ -121,14 +125,19 @@ At the end of 2022, the app was removed from the App Store.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 #### Tag and Background
+
+Adding a tag and changing the color gave the note uniqueness.  
+The views that appeared for selection were written programmatically, which gave some complexity.
 
 <img title="Edit 0" src="/Resources/GIF/edit-0.gif" width="200"/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 #### Bulleted List
+
+A lot of work has been done with NSAttributedString and NSRange. In this case, the bullet was a regular utf-symbol.  
+Another problem was saving the note in the form in which the user made it. Fortunately, we can save NSAttributedString to Realm and the problem is gone.
 
 <img title="Edit 1" src="/Resources/GIF/edit-1.gif" width="200"/>
 
@@ -137,14 +146,10 @@ Logic was also written to add new types of bullets. Unfortunately, the work on t
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-### Search
-
-<img title="Search" src="/Resources/GIF/search.gif" width="200"/>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ### Recently Deleted
+
+Each deleted note was moved to "Recently Deleted".  
+There the user could permanently delete the note or restore it. 30 days after the deletion, the notes were deleted themselves.
 
 <img title="Deleted" src="/Resources/GIF/deleted.gif" width="200"/>
 
