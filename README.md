@@ -5,12 +5,14 @@
 
 <br />
 <div align="center">
-  <img title="App Icon" src="/Resources/Images/app-icon.png" alt="Logo" width="100">
+  <img title="App Icon" src="/Resources/Images/WakeApp-Notica.JPG" alt="Logo" height="200">
   
   <h3 align="center">Notica</h3>
   
   <p align="center">
-    An application for creating daily notes
+    <em>
+      An application for creating daily notes
+    </em>
   </p>
 </div>
 
