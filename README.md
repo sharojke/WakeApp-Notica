@@ -117,8 +117,10 @@ I was in a team with my mentor and worked on the project from January to Februar
 ## Functionality
 
 
-The main functionality is displayed below. Of course, in addition to this, many small tasks were completed and many bugs were fixed.  
-***All the functionality written below was implemented by me or with my active participation.***
+The main functionality described below ***was implemented by me or with my active participation***.  
+Of course, in addition to this, a lot of small tasks have been completed and a lot of bugs have been fixed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Viewing a Note
