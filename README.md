@@ -49,6 +49,7 @@
 
 ## About The Project
 
+Notica is an application for creating daily notes.
 
 ### Company
 
